@@ -2,6 +2,7 @@
 cmake_minimum_required (VERSION 3.0)
 project (Tutorials)
 
+set(OpenGL_GL_PREFERENCE LEGACY)
 find_package(OpenGL REQUIRED)
 
 
